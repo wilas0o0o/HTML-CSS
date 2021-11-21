@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual  {
+  width: 100%;
+  height: 400px;
+  padding: 20px 20px;
+  color: #000;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.blog {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.blog:first-child {
+  padding-top: 0px;
+}
